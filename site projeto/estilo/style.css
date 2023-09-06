@@ -1,0 +1,75 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+    background-color: rgb(216, 199, 199);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    color: white;
+    display: flex;
+    padding: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
+    
+}
+
+#topo {
+    display: flex;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    height: 180px;
+    margin: 0;
+    width: 100%;
+    align-content: center;
+    
+
+    @media screen {
+        min-width: 2%;
+        max-width: 200%;
+        align-items: center;
+        position: relative;
+
+    }
+
+}
+h2{
+    font-family: 'Caveat', cursive;
+    font-size: 38px;
+    text-align: center;
+
+}
+
+#corpo {
+    background-color: rgb(216, 199, 199);
+    height: 1080px;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    
+    
+}
+
+#footer {
+    background-color: rgb(127, 225, 255);
+    height: 280px;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+#rodapé {
+    background-color: rgb(116, 150, 163);
+    height: 280px;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+}
+
